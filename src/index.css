@@ -1,0 +1,98 @@
+
+
+.active{
+  
+  border: 1px solid #1ABC9C ;
+  background-color: #1ABC9C;
+  padding: 7px;
+  border-radius: 5px;
+}
+.myclass{
+  background-color: #2C3E50;
+  
+}
+.myclasss{
+
+  width: 100%;
+  background-color: #2C3E50;
+}
+.icon{
+  margin: 3px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 19px;
+}
+.copyright{
+  background-color: #1A252F;
+}
+.about{
+  background-color: #1ABC9C;
+  padding-top: 93px;
+  
+}
+.contact{
+  color: #2C3E50;
+}
+.form-floating{
+  color: grey;
+}
+
+.home{
+  background-color: #1ABC9C;
+  padding-top: 150px;
+  height: 100vh;
+  width: 100%;
+  
+}
+.hamada{
+  min-height: 90vh;
+}
+
+.footer{
+  background-color: #1A252F;
+  color: white;
+  padding: 10px;
+}
+.protofolio{
+  padding-top: 130px;
+  color: #2C3E50;
+  padding-top: 150px;
+  height: 125vh;
+  width: 100%;
+  
+ 
+}
+.protofolio .hambozo img{
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.item {
+  position: relative;
+  overflow: hidden;
+}
+.layer{
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 95%;
+  height: 97%;
+  border-radius:10px ;
+  background-color: #1abc9ce3;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.item:hover .layer{
+  opacity: 1;
+}
+.py{
+  padding-top: 90px;
+}
+.myform{
+  border-top: none;
+}
+.myform  .btn{
+  background-color: #1ABC9C !important;
+}
