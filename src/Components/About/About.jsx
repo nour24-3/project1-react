@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-
+import image4 from "../../assets/Capture.png"
 
 export default function About() {
-
 
     return (
     <>
@@ -10,7 +9,7 @@ export default function About() {
             <div className='container '>
             <h1 className='text-center fw-bold'>ABOUT COMPONENT</h1>
             <div className='text-center'>
-                <img  width={250} src="./../../../images/Capture.PNG" alt="decoration" />
+                <img  width={250} src={image4} alt="decoration" />
             </div>
         <div className='d-flex justify-content-around'>
             <p>

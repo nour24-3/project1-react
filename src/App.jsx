@@ -4,7 +4,7 @@ import About from './Components/About/About';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Protofolio from './Components/Protofolio/Protofolio';
 import Layout from './Components/Layout/Layout';
-import Notfound from './Components/Notfound/Notfound'
+import Notfound from './Components/Notfound/Notfound';
 
 let x = createBrowserRouter([
   {path : "" , element : <Layout/>, children:[

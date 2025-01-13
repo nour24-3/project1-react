@@ -2,7 +2,6 @@
   "name": "project1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://nour24-3.github.io/project1-react",
   "type": "module",
   "scripts": {
     "dev": "vite",

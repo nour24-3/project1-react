@@ -1,5 +1,5 @@
 import React from 'react'
-
+import img from "../../assets/1.png"
 export default function Contact() {
 
 
@@ -10,7 +10,7 @@ export default function Contact() {
         <div className='text-center contact mb-3'>
         <h1 >CONTACT COMPONENT</h1>
         <div>
-          <img src="./../../../images/1.PNG" alt="" />
+          <img src={img} alt="" />
         </div>
         </div>
     
